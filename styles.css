@@ -1,8 +1,24 @@
 body {
-  font-family: roboto;
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  background-color: #1F2937;
+  display: flex;
+  justify-content: space-between;
 }
 
 h1 {
   font-weight: 24px;
   color: #F9FAF8;
+}
+
+li {
+  font-weight: 18px;
+  color: #E5E7EB;
+  list-style-type: none;
+}	
+
+a {
+  text-decoration: none;
 }
