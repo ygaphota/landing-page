@@ -1,0 +1,1 @@
+This Landing Page project shows how I am able to use Flexbox in order to create a full webpage. It shows a combination of HTML, CSS, and utilizing div commands correctly in order to create the boxes necessary to align all items and make them all work nicely together.
