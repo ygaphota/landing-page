@@ -10,6 +10,10 @@ body {
   margin: 0;
 }
 
+p {
+  margin: 0;
+}
+
 .hero {
   background-color: #1F2937;
   display: flex;
@@ -64,10 +68,10 @@ h2 {
 }
 
 .container {
+  display: flex;
   flex-direction: column;
   width: 410px;
-  padding: 0;
-  margin: 0;
+  gap: 16px;
 }
 
 .box {
@@ -84,6 +88,7 @@ button {
   border-radius: 6px;
   font-weight: bold;
   background-color: #3882F6;
+  width: 110px;
 }  
 
 .body {
@@ -98,8 +103,8 @@ button {
   justify-content: center;
   align-items: center;
   font-size: 36px;
-  font-weight: extra-bold
-  color: #1F2937
+  font-weight: 700;
+  color: #1F2937;
 }
 
 .images {
@@ -125,6 +130,33 @@ img {
   gap: 8px;
 }
 
-.text2 {
-  margin: 0;
+.body2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E5E7EB;
+  height: 500px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  width: 825px;
+  justify-content: center;
+}
+
+
+.quote-text {
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+  color: #1F2937
+}
+
+.attribute {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 24px;
+  font-weight: 700;
+  color: #1F2937;
 }
